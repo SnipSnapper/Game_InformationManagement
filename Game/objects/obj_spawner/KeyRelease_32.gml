@@ -56,6 +56,14 @@ switch(l4BF808EA_0)
 		/// @DnDArgument : "value" ""this is npc1""
 		/// @DnDArgument : "var" "text"
 		global.text = "this is npc1";
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 592E30A1
+		/// @DnDParent : 10BBE02B
+		/// @DnDArgument : "value" "spr_npc1"
+		/// @DnDArgument : "var" "sprite"
+		global.sprite = spr_npc1;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -71,6 +79,14 @@ switch(l4BF808EA_0)
 		/// @DnDArgument : "value" ""this is npc2""
 		/// @DnDArgument : "var" "text"
 		global.text = "this is npc2";
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 6D8224AC
+		/// @DnDParent : 1D3ECF90
+		/// @DnDArgument : "value" "spr_npc2"
+		/// @DnDArgument : "var" "sprite"
+		global.sprite = spr_npc2;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -86,6 +102,14 @@ switch(l4BF808EA_0)
 		/// @DnDArgument : "value" ""this is npc3""
 		/// @DnDArgument : "var" "text"
 		global.text = "this is npc3";
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 398A45B6
+		/// @DnDParent : 7D462A76
+		/// @DnDArgument : "value" "spr_npc3"
+		/// @DnDArgument : "var" "sprite"
+		global.sprite = spr_npc3;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -101,5 +125,23 @@ switch(l4BF808EA_0)
 		/// @DnDArgument : "value" ""this is npc4""
 		/// @DnDArgument : "var" "text"
 		global.text = "this is npc4";
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 01DC3A1D
+		/// @DnDParent : 43C6A75B
+		/// @DnDArgument : "value" "spr_npc4"
+		/// @DnDArgument : "var" "sprite"
+		global.sprite = spr_npc4;
 		break;
 }
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 5EB67141
+/// @DnDArgument : "xpos" "500"
+/// @DnDArgument : "ypos" "500"
+/// @DnDArgument : "objectid" "collision"
+/// @DnDArgument : "layer" ""Layer_NPC""
+/// @DnDSaveInfo : "objectid" "e9c9ad01-fdb6-4988-98f4-b5e467cd99b5"
+instance_create_layer(500, 500, "Layer_NPC", collision);

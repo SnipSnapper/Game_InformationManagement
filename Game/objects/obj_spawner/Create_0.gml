@@ -16,3 +16,9 @@ global.randomSpawn = "";
 /// @DnDHash : 2CC0D070
 /// @DnDArgument : "var" "npcAlive"
 global.npcAlive = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0D0412FF
+/// @DnDArgument : "var" "atDestination"
+global.atDestination = 0;
